@@ -5,21 +5,6 @@ import java.text.NumberFormat;
 
 public class Main {
 
-    /*public static void main(String[] args) {
-	// write your code here
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Principle: ");
-        float P = sc.nextFloat();
-        System.out.print("Annual Interest Rate: ");
-        float r = (sc.nextFloat()/100/12);
-        //String R = NumberFormat.getPercentInstance().format(r);
-        //System.out.println(r);
-        System.out.print("Period(Years): ");
-        float n = sc.nextFloat()*12;
-        double m = P*(r*Math.pow((1+r),n)/(Math.pow((1+r),n)-1));
-        System.out.println("Mortgage: " + NumberFormat.getCurrencyInstance().format(m));
-
-    }*/
     public static void main(String[] args){
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
